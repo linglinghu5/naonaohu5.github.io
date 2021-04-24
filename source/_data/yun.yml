@@ -1,0 +1,65 @@
+#网站模式
+banner:
+  enable: true
+  title:  零零虎的小屋
+  src: /js/ui/banner.js
+  border: false
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-linene
+mode: auto
+bg_image:
+  enable: true
+  url: /images/bj.jpg
+  dark: /images/1.jpg
+  opacity: 0.8
+
+sidebar:
+  bg_image: /images/11.jpg
+  bg_position: bottom -8rem center
+  tagcloud:
+    enable: enable
+    amount: 20
+avatar:
+  enable: true
+  url: /images/12.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: enable
+  status:
+    enable: true
+    emoji: 😭
+    message: 不想背单词啊
+cursor:
+  enable: enable
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+footer:
+  since: 2021
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+    powered:
+    enable: true
+  live_time:
+    enable: enable
+    prefix: 本博客已帅气地运行
+    suffix: (●'◡'●)
+    start_time: "2021-04-24T00:00:00"
+  wordcloud:
+    enable: true
+    height: 350
+  search:
+  modal: true
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+  dark_bg_image: xxx
+  # placeholder:
+  colors:
+    primary: "#000000"
+    # bg: "#F5F5F5"
+    selection_bg: "#8e71c1" # 选取文字时的背景色
